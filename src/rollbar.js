@@ -6,7 +6,14 @@ if (process.env.REACT_APP_ROLLBAR_ACCESS_TOKEN && process.env.REACT_APP_RELEASE)
       captureUncaught: true,
       captureUnhandledRejections: true,
       payload: {
-          environment: 'development'
+          environment: 'development',
+          client: {
+            javascript: {
+              source_map_enabled: true,
+              code_version: process.env.REACT_APP_RELEASE,
+              guess_uncaught_frames: true
+            }
+          }
       }
   };
   // Rollbar Snippet
