@@ -13,7 +13,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://urahiroshi.github.io/play-create-react-app/",
+  "homepage": "https://urahiroshi.github.io/play-rollbar/",
   "devDependencies": {
   }
 }
