@@ -15,5 +15,6 @@
   },
   "homepage": "https://urahiroshi.github.io/play-rollbar/",
   "devDependencies": {
+    "rollbar": "^2.3.3"
   }
 }
